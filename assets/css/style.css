@@ -1,0 +1,17 @@
+/* GLOBAL */ 
+.containter-fluid {
+    margin: 0px 15px 0px 15px;
+}
+/* NAV STYLES */ 
+
+/* SEARCH  */
+/* .btn-primary {
+    width: 340px;
+} */
+.mainHead {
+    background-image: url("/assets/images/jeremy-perkins-7FOSJVtUtac-unsplash.jpg");
+}
+
+.list-group-item {
+    background: lightgrey;
+}
