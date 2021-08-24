@@ -37,18 +37,20 @@
                 </div> 
                 <hr />
                 <h5 class="m-2 pt-3">Your Weather History</h3>
-                <ul class="list-group searchHistory">
-                    <li>sdfjkasdhf</li>
-                    <li>sdfjkasdhf</li>
-                    <li>sdfjkasdhf</li>
-                    <li>sdfjkasdhf</li>
-                    <li>sdfjkasdhf</li>
-                    <li>sdfjkasdhf</li>
-                </ul>
+
+                <div class="list-group searchHistory">
+                    <button type="button" class="btn btn-secondary my-2" id="save1">Austin</button>
+                    <button type="button" class="btn btn-secondary my-2" id="save2">Boston</button>
+                    <button type="button" class="btn btn-secondary my-2" id="save3">Chicago</button>
+                    <button type="button" class="btn btn-secondary my-2" id="save4">Denver</button>
+                    <button type="button" class="btn btn-secondary my-2" id="save5">Dallas</button>
+                    <button type="button" class="btn btn-secondary my-2" id="save6">New York</button>
+                </div>
             </div>
             <!-- Weather Display-->
             <div class="col-9 my-2">
-                <div class="currentForecast">
+                <div class="currentForecast" id="current-forecast"></div>
+                <div class="row my-3 mt-4">
                     <div class="card" style="width: 100%;">
                         <div class="card-body">
                           <h3 class="card-title text-center fw-bolder" id="todaysDate">Satuday, August 22, 2021 <i class="fas fa-cloud"></i></h3>
@@ -60,9 +62,9 @@
                       </div>
                 </div>
             </div>
-                <div id="cityForecast" class="cityForecast mt-4 row"></div>
+                <!-- <div id="cityForecast" class="cityForecast mt-4 row"></div>
             </div>
-        </div>
+        </div> -->
 
 
 
@@ -71,6 +73,5 @@
     <!-- BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
    <script src="./assets/js/script.js"></script>
-
   </body>
 </html>
