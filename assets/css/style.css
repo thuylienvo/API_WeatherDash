@@ -2,7 +2,11 @@
 .containter-fluid {
     margin: 0px 15px 0px 15px;
 }
-/* NAV STYLES */ 
+* {
+    font-family: "Lato", sans-serif;
+padding: 0%;
+  }
+
 
 /* SEARCH  */
 /* .btn-primary {
@@ -14,4 +18,23 @@
 
 .list-group-item {
     background: lightgrey;
+}
+
+header {
+    background-image: url("../images/jeremy-perkins-7FOSJVtUtac-unsplash.jpg");
+    height: 100px;
+    color: #ffffff;
+}
+
+/* .dashTitle {
+   color: #ffffff;
+} */
+
+
+.citySearchBut {
+    width: 100%;
+}
+
+.fas {
+    color: lightgrey;
 }
