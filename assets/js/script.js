@@ -1,4 +1,3 @@
-var historyArray = new Array(6).fill('');
 var historyList  = $('#searchHistory');
 var searchCity = '';
 var searchCityInput = document.querySelector('#selectCity');
